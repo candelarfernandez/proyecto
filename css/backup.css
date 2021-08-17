@@ -1,0 +1,386 @@
+/* Inicio index html */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Inicio bloque 1 */
+.bloque-1 {
+    background-color: #7d0121;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 100%;
+    font-size: 22px;
+    padding: 30px 50px;
+    z-index: 7;
+   
+}
+.menu, .lista {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
+
+.display a {
+    color: blanchedalmond;
+    text-decoration: none;
+    text-align: center;
+  
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 18px;
+}
+
+
+
+/* Fin bloque 1 */
+
+/* Inicio bloque 2 */
+
+.parrafo-1{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around right;
+    color: blanchedalmond;
+    text-align: right;
+    font-size: 50px;
+    
+
+}
+
+.parrafo-1:hover {
+    animation: texto 5s;
+    transition: all 2s;
+    transform: none;
+}
+
+@keyframes texto {
+    0% { 
+        opacity: 0;;
+
+    }
+
+    100% {
+        opacity: 1;;
+
+    }
+}
+
+.flex-conteiner {
+    display: flex;
+}
+
+.flex-item {
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-image: url(../multimedia/imagen-1.jpg);  
+    align-items: center; 
+    margin-bottom: 3px;
+}
+
+/* Fin bloque 2 */
+
+/* Inicio bloque 3 */
+
+.parrafo-2{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 1400px;
+    right: 300px;
+    color: blanchedalmond;
+
+}
+
+.parrafo-3{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 2200px;  
+    color: blanchedalmond;
+
+}
+
+
+.imagen-1, .imagen-2, .imagen-3 {
+    width: 100%;
+    height: 850px;
+}
+
+/* Fin bloque 3 */
+
+/* Inicio bloque 4 */
+.bloque-5 {
+    background-color: #7d0121;
+    font-family: 'Montserrat', sans-serif;
+    color: blanchedalmond;
+    padding: 20px 20px;
+    
+}
+
+.p-footer1 {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.mapa:hover {
+    transform: translateX(200px);
+    transition: all 1.5s ease-in-out;
+}
+
+
+.lista {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+.display2 {
+    display: inline-block;
+     color: blanchedalmond;
+}
+/* Fin bloque 5 */
+
+/* Fin index.html */
+
+/* Inicio carta.html */
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Inicio bloque 1 de carta*/
+.header {
+    background-color: #7d0121;
+    font-family: 'Montserrat', sans-serif;
+    color: blanchedalmond;
+    padding: 35px 35px;
+}
+/* Fin bloque 1 de carta*/
+
+/* Inicio bloque 2 de carta */
+.conteiner1 {
+    display: grid;
+    grid-template-columns: inherit;
+    grid-template-rows: 250px 250px 250px;
+    width: 100%;
+    grid-row-gap: 3px;
+    
+}
+a {
+    color: #7d0121;
+    text-decoration: none;
+}
+.div1 {
+    background-color: blanchedalmond;
+    text-align: center;   
+    font-family: 'Montserrat', sans-serif;
+    padding: 80px;
+}
+
+.div2 {
+    background-color: cornsilk; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 80px;
+}
+
+.div3 {
+    background-color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 80px;
+}
+
+/* Fin bloque 2 de carta */
+
+/* Inicio footer de carta */
+.container2 {
+    background-color: #7d0121;
+    width: 100%;
+    height: 200px;
+}
+
+.div11{
+    font-family: 'Montserrat', sans-serif;
+    color: blanchedalmond;
+    padding: 80px 80px 20px 20px;
+}
+/* Fin de footer de carta */
+
+/* mediaquery mobile */
+@media only screen and (max-width: 800px) {
+    .conteiner1 {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 900px 900px 900px;
+    }
+}
+ /* Inicio de sale.html */
+
+/* Inicio de body-sale */
+ .flex-container-sale {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+
+ .flex-item-sale {
+     background-color: cornsilk;
+     margin: 20px;
+     padding: 100px;
+     height: 60px;
+     width: 100px;
+     border-radius: 20px;
+     display: flex;  
+     justify-content: center;  
+ }
+
+ .imagen {
+     height: 150px;
+     width: 400%; 
+     margin: auto;
+ }
+
+ /* Fin de body-sale */
+
+ /* Inicio footer-sale */
+ .footer-container-sale {
+     display: flex;
+     justify-content: center;
+ }
+
+ .footer-sale {
+     background-color: #7d0121;
+     color: blanchedalmond;
+     height: 120px;
+     width: 100%;
+     padding: 100px 10px;
+     
+ }
+ 
+ /* Fin footer-sale */
+
+ /* Fin de sale.html */
+
+
+
+ /* Inicio nosotros.html */
+
+ /* Inicio bloque 1-nosotros */
+
+ .header {
+     float: left;
+     width: 100%;
+
+ }
+
+ .boton, .boton:hover {
+    background-color:beige;
+    color: #7d0121;
+    width: 100%;
+    float: right;  
+ }
+
+
+.imagen-carrousel {
+    width:100%;
+    height:600px;
+    padding-bottom: 20px;
+}
+
+
+.imagen-1-nosotros {
+    width: 100%;
+    height: 500px;
+}
+
+/* Fin bloque1-nosotros */
+
+/* Inicio bloque 2- nosotros */
+.imagen-grid-nosotros {
+    width: 120%;
+    height: 450px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imagen-grid-nosotros2 {
+    width: 108.5%;
+    height: 500px;
+    padding-left: 40px;
+    padding-right: 11px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.imagen-grid-nosotros3 {
+    width: 108.5%;
+    height: 500px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imagen-grid-nosotros4 {
+    width: 120%;
+    height: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* Fin de bloque 2-nosotros */
+
+/* Inicio footer-nosotros */
+
+
+.footer-nosotros {
+    background-color: #7d0121;
+    color: blanchedalmond;
+    padding: 100px;
+}
+ 
+/* Fin footer-nosotros */
+
+ /* Fin nosotros html */
+
+ /* Inicio tcn */
+.form-container {
+    margin: 10px 10px 10px 30px;
+   
+
+}
+
+
+ /* Fin tcn */
+
+
+
+/* Inicio contacto.html */
+
+
+.form-item {
+    display: block;
+    margin: 10px 0px 10px 30px;
+}
+
+.boton {
+    margin: 0px 10px 50px 190px;
+    
+}
+
+/* Fin contacto.html */
+

@@ -1,0 +1,415 @@
+/*index.html*/
+/* Inicio bloque 1 */
+.bloque-1 {
+  background-color: #7d0121;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  height: 100%;
+  font-size: 22px;
+  padding: 15px;
+  z-index: 7;
+}
+
+.menu, .lista {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 20px;
+  flex-wrap: wrap;
+}
+
+.display a {
+  color: blanchedalmond;
+  text-decoration: none;
+  text-align: center;
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 18px;
+}
+
+/* Fin bloque 1 */
+/* Inicio bloque 2 */
+.parrafo-1 {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around right;
+  color: blanchedalmond;
+  text-align: right;
+  font-size: 50px;
+}
+
+.parrafo-1:hover {
+  animation: texto 5s;
+  transition: all 2s;
+  transform: none;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.flex-conteiner {
+  display: flex;
+}
+
+.flex-item {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-image: url(../multimedia/imagen-1.jpg);
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+/* Fin bloque 2 */
+.corte1, .corte1-item {
+  background-color: #7d0121;
+  height: 300px;
+  font-family: "Montserrat", sans-serif;
+  color: blanchedalmond;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 60px;
+}
+
+/*inicio bloque3*/
+.parrafo-2, .parrafo-3 {
+  font-family: "Montserrat", sans-serif;
+  color: blanchedalmond;
+}
+
+.parrafo-3, .parrafo-2 {
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parrafo-2 {
+  justify-content: left;
+}
+
+.parrafo-3 {
+  justify-content: center;
+}
+
+.bloque-4-container, .bloque-5-container {
+  display: flex;
+}
+
+.bloque-5-item, .bloque-4-item {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  align-items: center;
+  margin-bottom: 0px;
+  display: flex;
+}
+
+.bloque-4-item {
+  background-image: url(../multimedia/imagen-2.jpg);
+}
+
+.bloque-5-item {
+  background-image: url(../multimedia/imagen-3.jpg);
+}
+
+/*fin bloque 3*/
+/* Inicio bloque 4 */
+.bloque-6 {
+  background-color: #7d0121;
+  font-family: "Montserrat", sans-serif;
+  color: blanchedalmond;
+  padding: 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.p-footer {
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px white;
+}
+
+.p-footer-2 {
+  text-align: center;
+}
+
+.lista {
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.display2 {
+  display: inline-block;
+  color: blanchedalmond;
+}
+
+/* Fin bloque 4 */
+/*carta.html*/
+/* Inicio carta.html */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Inicio bloque 1 de carta*/
+.container-fluid {
+  background-color: #7d0121;
+  font-family: "Rajdhani", sans-serif;
+  height: 150px;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: blanchedalmond !important;
+}
+
+.navbar-brand {
+  font-size: 38px;
+  color: blanchedalmond !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/* Fin bloque 1 de carta*/
+/* Inicio bloque 2 de carta */
+a {
+  color: #7d0121;
+  text-decoration: none;
+}
+
+.div1, .div2, .div3 {
+  display: flex;
+}
+
+.cabernet {
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.cabernet1 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 60px;
+  text-decoration: none;
+  z-index: 7;
+  padding-top: 120px;
+  padding-left: 60px;
+}
+
+.cabernet1:hover, .malbec1:hover, .vblanco1:hover {
+  color: #7d0121;
+}
+
+.malbec1 {
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+  font-size: 60px;
+  padding-top: 120px;
+  padding-left: 300px;
+  z-index: 7;
+}
+
+.malbec {
+  padding-left: 300px;
+  padding-top: 20px;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.vblanco {
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+}
+
+.vblanco1 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 60px;
+  text-decoration: none;
+  z-index: 7;
+  padding-top: 120px;
+  padding-left: 200px;
+}
+
+/* Fin bloque 2 de carta */
+/* Inicio footer de carta */
+.container2 {
+  background-color: #7d0121;
+  width: 100%;
+  height: 200px;
+}
+
+.div11 {
+  font-family: "Montserrat", sans-serif;
+  color: blanchedalmond;
+  padding: 80px 80px 20px 20px;
+}
+
+/* Fin de footer de carta */
+/* mediaquery mobile */
+@media only screen and (max-width: 800px) {
+  .conteiner1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 900px 900px 900px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container-fluid {
+    background-color: #7d0121;
+  }
+}
+/*sale.html*/
+/* Inicio de body-sale */
+/* Fin de body-sale */
+/* Inicio footer-sale */
+.footer-container-sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #7d0121;
+}
+
+.footer-sale {
+  background-color: #7d0121;
+  color: blanchedalmond;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+}
+
+.p-footer-sale-2 {
+  border: 2px solid white;
+  font-size: 20px;
+  align-items: center;
+}
+
+/* Fin footer-sale */
+/* Fin de sale.html */
+/*nosotros.html*/
+/* Inicio bloque 1-nosotros */
+.imagen-1-nosotros, .imagen-carrousel, .boton, .boton:hover, .header {
+  width: 100%;
+}
+
+.header {
+  float: left;
+}
+
+.boton, .boton:hover {
+  background-color: beige;
+  color: #7d0121;
+  float: right;
+}
+
+.imagen-carrousel {
+  width: 100%;
+  height: 600px;
+  padding-bottom: 20px;
+}
+
+.imagen-1-nosotros {
+  height: 500px;
+}
+
+/* Fin bloque1-nosotros */
+/* Inicio bloque 2- nosotros */
+.imagen-grid-nosotros {
+  width: 120%;
+  height: 450px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imagen-grid-nosotros2 {
+  width: 108.5%;
+  height: 500px;
+  padding-left: 40px;
+  padding-right: 11px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.imagen-grid-nosotros3 {
+  width: 108.5%;
+  height: 500px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imagen-grid-nosotros4 {
+  width: 120%;
+  height: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Fin de bloque 2-nosotros */
+/* Inicio footer-nosotros */
+.footer-nosotros {
+  background-color: #7d0121;
+  color: blanchedalmond;
+  padding: 100px;
+}
+
+/* Fin footer-nosotros */
+/*trabajaconnosotros.html*/
+/* Inicio tcn */
+.form-container {
+  margin: 10px 10px 10px 30px;
+}
+
+/* Fin tcn */
+/*contacto.html*/
+/* Inicio contacto.html */
+.form-item {
+  display: block;
+  margin: 10px 0px 10px 30px;
+}
+
+.boton-item {
+  margin: 0px 0px 10px 95px;
+}
+
+/* Fin contacto.html */
+
+/*# sourceMappingURL=style.css.map */
