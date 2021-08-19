@@ -293,6 +293,10 @@ a {
 }
 /*sale.html*/
 /* Inicio de body-sale */
+.imagen-carrousel {
+  height: 200px;
+}
+
 /* Fin de body-sale */
 /* Inicio footer-sale */
 .footer-container-sale {
