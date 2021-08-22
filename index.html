@@ -21,6 +21,10 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="../proyecto/multimedia/cheers.png" type="images/x-icon">
 
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
     <!-- CSS vinculo -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -39,21 +43,38 @@
 
 <body>
     <!--Inicio bloque 1-->
-    <header class="bloque-1">
-        <div class="menu">
-            <ul class="lista">
-                <li class="display"><a href="index.html">INICIO</a></li>
-
-                <li class="display"><a href="secciones/carta.html">CARTA</a></li>
-
-                <li class="display"><a href="secciones/sale.html">SALE</a></li>
-
-                <li class="display"><a href="secciones/nosotros.html">NOSOTROS</a></li>
-
-                <li class="display"><a href="secciones/contacto.html">CONTACTO</a></li>
-
-                <li class="display"><a href="secciones/trabajaconnosotros.html">TRABAJA CON NOSOTROS</a></li>
-            </ul>
+    <header>
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bloque-nav">
+            <div class="container-fluid back-nav">
+              <a class="navbar-brand" href="#">VITISVINIFERA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link a-nav"href="index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="secciones/carta.html">CARTA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="secciones/sale.html">SALE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="secciones/nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="secciones/contacto.html">CONTACTO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="secciones/trabajaconnosotros.html">RRHH</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
     </header>
     <!--Fin bloque 1-->
@@ -130,6 +151,11 @@
             <nav>
         </footer>
         <!--Fin bloque 5-->
+
+        <!-- Boostrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

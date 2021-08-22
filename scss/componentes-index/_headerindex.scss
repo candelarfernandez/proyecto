@@ -1,33 +1,10 @@
 /* Inicio bloque 1 */
-.bloque-1 {
-    background-color: #7d0121;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    height: 100%;
-    font-size: 22px;
-    padding: 15px;
-    z-index: 7;
-   
-}
-.menu, .lista {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 20px;
-    flex-wrap: wrap;
+.container, .navbar-nav, .nav-item, .nav-link {
+    color: blanchedalmond !important;
+    background-color: #7d0121 !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
-.display a {
-    color: blanchedalmond;
-    text-decoration: none;
-    text-align: center;
-  
-}
-
-.display {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 18px;
-}
 
 
 
