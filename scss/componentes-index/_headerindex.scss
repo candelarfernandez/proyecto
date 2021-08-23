@@ -1,9 +1,31 @@
 /* Inicio bloque 1 */
-.container, .navbar-nav, .nav-item, .nav-link {
+.header-index {
+    width: 100% !important;
+    font-family: 'Montserrat', sans-serif !important;
     color: blanchedalmond !important;
     background-color: #7d0121 !important;
-    font-family: 'Montserrat', sans-serif !important;
+    background-size: cover;
+
 }
+.navbar {
+    width: 100% !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: blanchedalmond !important;
+    background-color: #7d0121 !important;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: #7d0121 !important;
+    padding: 2rem !important;
+    width: 100%;
+
+}
+
 
 
 
