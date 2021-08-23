@@ -1,30 +1,40 @@
 /* Inicio bloque 1 */
-.header-index {
-    width: 100% !important;
-    font-family: 'Montserrat', sans-serif !important;
-    color: blanchedalmond !important;
-    background-color: #7d0121 !important;
-    background-size: cover;
-
-}
-.navbar {
-    width: 100% !important;
-    font-family: 'Montserrat', sans-serif !important;
-    color: blanchedalmond !important;
-    background-color: #7d0121 !important;
-
-}
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+
+/* HEADER */
 header {
-    background-color: #7d0121 !important;
-    padding: 2rem !important;
-    width: 100%;
+    background-color: #7d0121;
+}
+.container-fluid {
+    height: 120px !important;
+}
+
+.back-nav {
+    background-color: #7d0121;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 17px !important;
 
 }
+
+header .bloque-nav {
+    padding: 0;
+
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: blanchedalmond;
+}
+.navbar-brand {
+    padding-top: 13px ;
+    font-size: 25px !important;
+}
+
 
 
 

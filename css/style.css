@@ -1,32 +1,38 @@
 /*index.html*/
 /* Inicio bloque 1 */
-.bloque-1 {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header {
   background-color: #7d0121;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  height: 100%;
-  font-size: 22px;
-  padding: 15px;
-  z-index: 7;
 }
 
-.menu, .lista {
-  display: flex;
-  justify-content: space-around;
-  margin: 0px 20px;
-  flex-wrap: wrap;
+.container-fluid {
+  height: 120px !important;
 }
 
-.display a {
+.back-nav {
+  background-color: #7d0121;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 17px !important;
+}
+
+header .bloque-nav {
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
   color: blanchedalmond;
-  text-decoration: none;
-  text-align: center;
 }
 
-.display {
-  display: flex;
-  justify-content: space-around;
-  margin: 0px 18px;
+.navbar-brand {
+  padding-top: 13px;
+  font-size: 25px !important;
 }
 
 /* Fin bloque 1 */
