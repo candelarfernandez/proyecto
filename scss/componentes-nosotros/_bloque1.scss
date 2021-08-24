@@ -17,17 +17,18 @@
    float: right;  
 }
 
+$height: 1000px;
 
 .imagen-carrousel {
     @extend %width; width:100%;
-   height:600px;
+   height: $height - 400px;
    padding-bottom: 20px;
 }
 
 
 .imagen-1-nosotros {
     @extend %width;
-   height: 500px;
+   height: $height - 500px;
 }
 
 /* Fin bloque1-nosotros */

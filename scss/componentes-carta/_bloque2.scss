@@ -1,6 +1,7 @@
 /* Inicio bloque 2 de carta */
 
-    
+$align: center;
+$flex-direction: column;   
 
 
 a {
@@ -14,16 +15,16 @@ a {
 
 .cabernet {
     justify-content: left;
-    align-items:center ;
-    flex-direction: column;
+    align-items: $align;
+    flex-direction: $flex-direction;
     padding-left: 0px;
     padding-top: 0px;
 }
 
 .cabernet1 {
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: $align;
+    flex-direction: $flex-direction;
     font-size: 60px;
     text-decoration: none;
     z-index: 7;
@@ -37,8 +38,8 @@ a {
 
 .malbec1 {
     justify-content: right;
-    align-items: center;
-    flex-direction: column;
+    align-items: $align;
+    flex-direction: $flex-direction;
     font-size: 60px;
     padding-top: 120px;
     padding-left: 300px;
@@ -48,15 +49,15 @@ a {
     padding-left: 300px;
     padding-top: 20px;
     justify-content: right;
-    align-items: center;
-    flex-direction: column;
+    align-items: $align;
+    flex-direction: $flex-direction;
     flex-wrap: wrap;
 }
 
 .vblanco {
     justify-content: left;
-    align-items:center ;
-    flex-direction: column;
+    align-items: $align;
+    flex-direction: $flex-direction;
     padding-left: 0px;
     padding-top: 10px;
     padding-right: 0px;
@@ -67,8 +68,8 @@ a {
 
 .vblanco1 {
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: $align;
+    flex-direction: $flex-direction;
     font-size: 60px;
     text-decoration: none;
     z-index: 7;
