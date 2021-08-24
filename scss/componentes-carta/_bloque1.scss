@@ -1,34 +1,34 @@
 
 /* Inicio carta.html */
+.encabezado-section{
+    height: 300px;
+    background-size: cover;
+    background-image: url(../../multimedia/encabezado-carta.jpg);
+    background-position: 50% 60%;
+}
+.encabezado-alto{
+    height: 300px;
+}
+.h1-section{
+    color: #7d0121;
+}
+.div-carta a{
+    text-decoration: none;
+    color: #7d0121;
+}
+
+.div-carta {
+    text-align: center;   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    height: 10rem;
+}
+
+.cabernet {
+    background-image: url();
+}
+
  
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-/* Inicio bloque 1 de carta*/
-
-.container-fluid {
-    background-color: #7d0121;
-    font-family: 'Rajdhani', sans-serif;
-    height: 150px;
-    font-size: 25px;  
-}
-
-.nav-link {
-    color: blanchedalmond !important;
-}
-
-.navbar-brand {
-    font-size: 38px;
-    color: blanchedalmond !important;
-    font-family: "Montserrat", sans-serif;   
-}
-
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
 /* Fin bloque 1 de carta*/
 
 

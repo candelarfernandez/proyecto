@@ -26,7 +26,7 @@ header .bloque-nav {
 
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
-  color: blanchedalmond;
+  color: blanchedalmond !important;
 }
 
 .navbar-brand {
@@ -196,31 +196,35 @@ li {
 /*fin del footer*/
 /*carta.html*/
 /* Inicio carta.html */
-* {
-  margin: 0px;
-  padding: 0px;
+.encabezado-section {
+  height: 300px;
+  background-size: cover;
+  background-image: url(../../multimedia/encabezado-carta.jpg);
+  background-position: 50% 60%;
 }
 
-/* Inicio bloque 1 de carta*/
-.container-fluid {
-  background-color: #7d0121;
-  font-family: "Rajdhani", sans-serif;
-  height: 150px;
-  font-size: 25px;
+.encabezado-alto {
+  height: 300px;
 }
 
-.nav-link {
-  color: blanchedalmond !important;
+.h1-section {
+  color: #7d0121;
 }
 
-.navbar-brand {
-  font-size: 38px;
-  color: blanchedalmond !important;
+.div-carta a {
+  text-decoration: none;
+  color: #7d0121;
+}
+
+.div-carta {
+  text-align: center;
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  height: 10rem;
 }
 
-*, ::after, ::before {
-  box-sizing: border-box;
+.cabernet {
+  background-image: url();
 }
 
 /* Fin bloque 1 de carta*/
