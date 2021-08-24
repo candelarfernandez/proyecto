@@ -34,6 +34,33 @@ header .bloque-nav {
   font-size: 25px !important;
 }
 
+/** transiciones menu**/
+.inicio:hover::after, .carta:hover::after {
+  width: 4.5%;
+}
+
+.sale:hover::after {
+  width: 3.5%;
+}
+
+.nosotros:hover::after, .contacto:hover::after {
+  width: 7.6%;
+}
+
+.rrhh:hover::after {
+  width: 4%;
+}
+
+.nav-link::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: blanchedalmond;
+  position: absolute;
+  transition: width 0.3s;
+}
+
 /* Fin bloque 1 */
 /* Inicio bloque 2 */
 .parrafo-1 {
