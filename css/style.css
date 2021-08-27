@@ -200,7 +200,7 @@ li {
   height: 300px;
   background-size: cover;
   background-image: url(../../multimedia/encabezado-carta.jpg);
-  background-position: 50% 60%;
+  background-position: 60% 70%;
 }
 
 .encabezado-alto {
@@ -219,89 +219,23 @@ li {
 .div-carta {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   height: 10rem;
+  display: flex;
+  border: 3px solid #7d0121;
 }
 
-.cabernet {
-  background-image: url();
+.cabernet, .malbec, .blanco {
+  color: #7d0121;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-bottom: 10px;
 }
 
 /* Fin bloque 1 de carta*/
-/* Inicio bloque 2 de carta */
-a {
-  color: #7d0121;
-  text-decoration: none;
-}
-
-.div1, .div2, .div3 {
-  display: flex;
-}
-
-.cabernet {
-  justify-content: left;
-  align-items: center;
-  flex-direction: column;
-  padding-left: 0px;
-  padding-top: 0px;
-}
-
-.cabernet1 {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-size: 60px;
-  text-decoration: none;
-  z-index: 7;
-  padding-top: 120px;
-  padding-left: 60px;
-}
-
-.cabernet1:hover, .malbec1:hover, .vblanco1:hover {
-  color: #7d0121;
-}
-
-.malbec1 {
-  justify-content: right;
-  align-items: center;
-  flex-direction: column;
-  font-size: 60px;
-  padding-top: 120px;
-  padding-left: 300px;
-  z-index: 7;
-}
-
-.malbec {
-  padding-left: 300px;
-  padding-top: 20px;
-  justify-content: right;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.vblanco {
-  justify-content: left;
-  align-items: center;
-  flex-direction: column;
-  padding-left: 0px;
-  padding-top: 10px;
-  padding-right: 0px;
-  padding-bottom: 20px;
-}
-
-.vblanco1 {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-size: 60px;
-  text-decoration: none;
-  z-index: 7;
-  padding-top: 120px;
-  padding-left: 200px;
-}
-
-/* Fin bloque 2 de carta */
 /* mediaquery mobile */
 @media only screen and (max-width: 800px) {
   .conteiner1 {

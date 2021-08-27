@@ -4,7 +4,7 @@
     height: 300px;
     background-size: cover;
     background-image: url(../../multimedia/encabezado-carta.jpg);
-    background-position: 50% 60%;
+    background-position: 60% 70%;
 }
 .encabezado-alto{
     height: 300px;
@@ -14,19 +14,36 @@
 }
 .div-carta a{
     text-decoration: none;
-    color: #7d0121;
+    color: #7d0121;   
 }
 
 .div-carta {
     text-align: center;   
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     height: 10rem;
+    display: flex;
+    border: 3px solid #7d0121;
+    
 }
 
-.cabernet {
-    background-image: url();
+.cabernet, .malbec, .blanco {
+    
+    color: #7d0121;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+.container {
+    padding-bottom: 10px;
+}
+
+
+
+
+
 
  
 /* Fin bloque 1 de carta*/
