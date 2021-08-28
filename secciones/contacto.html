@@ -24,6 +24,7 @@
     <title>contacto</title>
 </head>
 <body>
+  <!-- Inicio header contacto -->
   <header>
     <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light bloque-nav">
@@ -58,30 +59,45 @@
       </nav>
     </div>
 </header>
+<!-- Fin header contacto -->
 
-    <form class="form-contacto" action="Para contactarnos"></form>
-    <caption class="caption">Para contactarnos</caption>
+<!-- Inicio bloque 1 -->
+<section class="container">
+  <h1 class="text-center">Contactate con nosotros</h1>
 
-    <label class="form-item" for="Name"> Nombre </label>
-    <input class="form-item" type="text" name="Nombre" id="Nombre">
 
-    <label class="form-item" for="Telefono"> Telefono</label>
-    <input class="form-item" type="text" name="Telefono" id="Telefono">
+<div class="row">
+  <div class="col-lg-6 col-sm-12">
 
-    <label class="form-item" for="Email"> Email </label>
-    <input class="form-item" type="text" name="Email" id="Email">
-
-    <label class="form-item" for="Mensaje"> Mensaje </label>
-    <textarea class="form-item" name="Mensaje" id="" cols="30" rows="5"></textarea>
-
+  </div>
+<div class="col-lg-6 col-sm-12 inline row">
+  <div class="col-12 p-3">
+<form action="enviar.php" method="POST" name="contact-form">
+  <label for="name">Nombre</label>
+  <input type="text" id="name" name="nombre">
+</div>
+<div class="col-12 p-3">
+  <label for="mail">Email</label>
+  <input type="email" name="email" id="mail">
+</div>
+<div class="col-12 p-3">
+  <label for="celular">Celular</label>
+  <input type="celular" id="celular" name="celular">
+</div>
+<div class="col-12 p-3">
+  <label for="mensaje">Mensaje</label>
+  <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+</div>
+<div class="col-12 p-3">
+  <input type="submit" value="Enviar">
+</div>
 </form>
+</div>
+</div>
+</section>
     
-  <!-- Boton -->
-  <br>
-  <section class="boton-container">
-    <input class="btn btn-primary boton-item" type="submit" value="Enviar">
-  </section>
-    <!-- Footer -->
+
+    <!-- Inicio Footer sale -->
     <footer>
       <div class="footer-container">
         <div class="column-1">
@@ -104,6 +120,7 @@
         </div>
       </div>
     </footer>
+    <!-- Fin footer sale -->
 
 
 
