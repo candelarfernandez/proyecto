@@ -63,30 +63,31 @@
 
 <!-- Inicio bloque 1 -->
 <section class="container">
-  <h1 class="text-center">Contactate con nosotros</h1>
+  <h1 class="text-center p-2 h1-contacto">Contactate con nosotros</h1>
 
 
 <div class="row">
-  <div class="col-lg-6 col-sm-12">
+  <div class="col-lg-6 col-sm-12 formulario">
+    <img class="w-100" src="../multimedia/imagen-1.jpg" alt="">
 
   </div>
-<div class="col-lg-6 col-sm-12 inline row">
+<div class="col-lg-6 col-sm-12 row formulario">
   <div class="col-12 p-3">
 <form action="enviar.php" method="POST" name="contact-form">
-  <label for="name">Nombre</label>
+  <label class="col-12 label-contacto" for="name"><strong>Nombre</strong></label>
   <input type="text" id="name" name="nombre">
 </div>
 <div class="col-12 p-3">
-  <label for="mail">Email</label>
+  <label class="col-12 label-contacto" for="mail"><strong>Email</strong></label>
   <input type="email" name="email" id="mail">
 </div>
 <div class="col-12 p-3">
-  <label for="celular">Celular</label>
+  <label class="col-12 label-contacto" for="celular"><strong>Celular</strong></label>
   <input type="celular" id="celular" name="celular">
 </div>
 <div class="col-12 p-3">
-  <label for="mensaje">Mensaje</label>
-  <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+  <label class="col-12 label-contacto" for="mensaje"><strong>Mensaje</strong></label>
+  <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
 </div>
 <div class="col-12 p-3">
   <input type="submit" value="Enviar">

@@ -370,6 +370,15 @@ li {
 /* Fin tcn */
 /*contacto.html*/
 /* Inicio contacto.html */
+.label-contacto, .h1-contacto {
+  color: #7d0121;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formulario {
+  border: 3px solid #7d0121;
+}
+
 /* Fin contacto.html */
 
 /*# sourceMappingURL=style.css.map */
