@@ -66,23 +66,37 @@
 
     <!-- Inicio de bloque 2 de tcn -->
 
-    <form class="form-tcn" action="Sumate a nuestro equipo"></form>
-    <caption>Sumate a nuestro equipo</caption>
+    <section class="container">
 
-    <label class="form-item" for="Name"> Nombre </label>
-    <input class="form-item" type="text" name="Nombre" id="Nombre">
-
-    <label class="form-item" for="Telefono"> Telefono</label>
-    <input class="form-item" type="text" name="Telefono" id="Telefono">
-
-    <label class="form-item" for="Email"> Email </label>
-    <input class="form-item" type="text" name="Email" id="Email">
-
-    <label class="form-item" for="Mensaje"> Contanos algo sobre vos </label>
-    <textarea class="form-item" name="Mensaje" id="" cols="30" rows="5"></textarea>
-
-
-    </section>
+      <div class="row p-3 w-100 d-flex justify-content-center align-items-center">
+        <div class="col-lg-5 col-sm-12 m-2 d-flex justify-content-center align-items-center">
+          <h1 class="h1-contacto p-2 transition-rrhh ">Animate a trabajar con nosotros!</h1>
+        </div>
+      <div class="col-lg-5 col-sm-12 m-2 row formulario transition-rrhh">
+        <div class="col-12 p-3">
+      <form action="../enviar.php" method="POST" name="contact-form">
+        <label class="col-12 label-form" for="name"><strong>Nombre</strong></label>
+        <input class="w-100" type="text" id="name" name="nombre">
+      </div>
+      <div class="col-12 p-3">
+        <label class="col-12 label-form" for="mail"><strong>Email</strong></label>
+        <input class="w-100" type="email" name="email" id="mail">
+      </div>
+      <div class="col-12 p-3">
+        <label class="col-12 label-form" for="celular"><strong>Celular</strong></label>
+        <input class="w-100" type="celular" id="celular" name="celular">
+      </div>
+      <div class="col-12 p-3">
+        <label class="col-12 label-form" for="carga"><strong>Carga tu cv</strong></label>
+        <input class="w-100" type="file" id="carga" name="carga">
+      </div>
+      <div class="col-12 p-3 d-flex align-items-center">
+        <input class="boton-form" type="submit" value="Enviar">
+      </div>
+      </form>
+      </div>
+      </div>
+      </section>
     <!-- Fin bloque 2 de tcn -->
 
     <!-- Inicio bloque 3 de tcn -->

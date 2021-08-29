@@ -1,14 +1,15 @@
 /* Inicio contacto.html */
+
 :root {
-    --clippy: polygon(52% 0, 52% 0, 42% 100%, 42% 100%);
-    --clippy2: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-  
+    --clippy: polygon(57% 0, 57% 0, 31% 100%, 31% 100%);
+    --clippy2: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.label-contacto {
+.label-form {
     color: #7d0121;
     font-family: 'Montserrat', sans-serif;
 }
+
 .h1-contacto{
     position: relative;
     font-family: 'Montserrat', sans-serif;
@@ -19,7 +20,7 @@
     position: relative;
 }
 
-.boton-contacto {
+.boton-form {
     background-color: #7d0121;
     color: blanchedalmond;
     font-family: 'Montserrat', sans-serif;
@@ -39,7 +40,7 @@
     z-index: -1;
     clip-path: var(--clippy);   
     transition: clip-path 2s;
-    animation: clip-path 5s ease forwards;
+    animation: clip-path 3s ease forwards;
 }
 
 
