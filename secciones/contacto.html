@@ -21,7 +21,7 @@
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
 
-    <title>contacto</title>
+    <title>Contacto</title>
 </head>
 <body>
   <!-- Inicio header contacto -->
@@ -63,34 +63,31 @@
 
 <!-- Inicio bloque 1 -->
 <section class="container">
-  <h1 class="text-center p-2 h1-contacto">Contactate con nosotros</h1>
 
-
-<div class="row">
-  <div class="col-lg-6 col-sm-12 formulario">
-    <img class="w-100" src="../multimedia/imagen-1.jpg" alt="">
-
+<div class="row p-3 w-100 d-flex justify-content-center align-items-center">
+  <div class="col-lg-5 col-sm-12 m-2 d-flex justify-content-center align-items-center">
+    <h1 class="h1-contacto p-2 ">Contactate con nosotros</h1>
   </div>
-<div class="col-lg-6 col-sm-12 row formulario">
+<div class="col-lg-5 col-sm-12 m-2 row formulario">
   <div class="col-12 p-3">
 <form action="enviar.php" method="POST" name="contact-form">
   <label class="col-12 label-contacto" for="name"><strong>Nombre</strong></label>
-  <input type="text" id="name" name="nombre">
+  <input class="w-100" type="text" id="name" name="nombre">
 </div>
 <div class="col-12 p-3">
   <label class="col-12 label-contacto" for="mail"><strong>Email</strong></label>
-  <input type="email" name="email" id="mail">
+  <input class="w-100" type="email" name="email" id="mail">
 </div>
 <div class="col-12 p-3">
   <label class="col-12 label-contacto" for="celular"><strong>Celular</strong></label>
-  <input type="celular" id="celular" name="celular">
+  <input class="w-100" type="celular" id="celular" name="celular">
 </div>
 <div class="col-12 p-3">
   <label class="col-12 label-contacto" for="mensaje"><strong>Mensaje</strong></label>
-  <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+  <textarea class="w-100" name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
 </div>
-<div class="col-12 p-3">
-  <input type="submit" value="Enviar">
+<div class="col-12 p-3 d-flex align-items-center">
+  <input class="boton-contacto" type="submit" value="Enviar">
 </div>
 </form>
 </div>
