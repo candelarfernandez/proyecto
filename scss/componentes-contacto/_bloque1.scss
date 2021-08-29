@@ -1,6 +1,8 @@
 /* Inicio contacto.html */
 :root {
     --clippy: polygon(52% 0, 52% 0, 42% 100%, 42% 100%);
+    --clippy2: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  
 }
 
 .label-contacto {
@@ -14,7 +16,7 @@
 }
 
 .formulario {
-    border: 3px solid  #7d0121;
+    position: relative;
 }
 
 .boton-contacto {
@@ -25,7 +27,7 @@
     border: 5px solid #7d0121;
     border-radius: 5px;
 }
-.h1-contacto::before {
+.transition-sale::before {
     content: "";
     display: block;
     border: 3px solid #7d0121;
@@ -37,9 +39,20 @@
     z-index: -1;
     clip-path: var(--clippy);   
     transition: clip-path 2s;
+    animation: clip-path 5s ease forwards;
 }
-.h1-contacto:hover::before {
-   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+
+
+@keyframes clip-path {
+    0% {
+        clip-path: var(--clippy);
+    }
+
+    100% {
+        clip-path:var(--clippy2);
+    }
+    
+
 }
 
 
