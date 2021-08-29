@@ -11,27 +11,5 @@
 
 }
 
-.h1-sale::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 100%;
-    background-color:black;
-    position: absolute;
-    transition: all ease 2s;
-    animation: promociones 3s forwards;
-}
-@keyframes promociones {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-
-
-
 
 /* Fin de body-sale */
