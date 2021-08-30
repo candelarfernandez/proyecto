@@ -114,6 +114,10 @@ header .bloque-nav {
   font-size: 60px;
 }
 
+.video-index {
+  width: 100%;
+}
+
 /*inicio bloque3*/
 .parrafo-2, .parrafo-3 {
   font-family: "Montserrat", sans-serif;
@@ -165,6 +169,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: blanchedalmond;
   width: 100%;
+  padding-top: 0 !important;
 }
 
 * {
