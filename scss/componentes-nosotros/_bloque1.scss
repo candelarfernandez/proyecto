@@ -16,19 +16,31 @@
    @extend %width;
    float: right;  
 }
-
-$height: 1000px;
-
-.imagen-carrousel {
-    @extend %width; width:100%;
-   height: $height - 400px;
-   padding-bottom: 20px;
+.contenedor-parrafo {
+    margin: auto !important;
 }
 
 
-.imagen-1-nosotros {
-    @extend %width;
-   height: $height - 500px;
+.parrafo-nosotros {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto !important;
+    
+    
+    
 }
+
+
+.h1-nosotros {
+    color: #7d0121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    border-bottom: 1px solid #7d0121;
+}
+
+
+
+
+
 
 /* Fin bloque1-nosotros */
