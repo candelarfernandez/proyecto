@@ -1,0 +1,65 @@
+/* Inicio bloque 2 */
+
+.parrafo-1{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around right;
+    color: blanchedalmond;
+    text-align: right;
+    font-size: 50px;
+    
+}
+
+/*transicion del texto*/
+
+.parrafo-1:hover {
+    animation: texto 5s;
+    transition: all 2s;
+    transform: none;
+}
+
+@keyframes texto {
+    0% { 
+        opacity: 0;;
+
+    }
+
+    100% {
+        opacity: 1;;
+
+    }
+}
+
+/*media query del parrafo*/
+@media only screen and (max-width: 510px) {
+    .parrafo-1 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .parrafo-1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 306px) {
+    .parrafo-1 {
+        font-size: 23px;
+    }
+}
+
+/*imagen*/
+.flex-conteiner {
+    display: flex;
+}
+
+.flex-item {
+    width: 100%;
+    height: 620px;
+    background-size: cover;
+    background-image: url(../multimedia/imagen-1.jpg);  
+    align-items: center; 
+    margin-bottom: 0px;
+}
+
+/* Fin bloque 2 */

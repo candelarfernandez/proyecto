@@ -72,6 +72,7 @@ header .bloque-nav {
   font-size: 50px;
 }
 
+/*transicion del texto*/
 .parrafo-1:hover {
   animation: texto 5s;
   transition: all 2s;
@@ -86,13 +87,30 @@ header .bloque-nav {
     opacity: 1;
   }
 }
+/*media query del parrafo*/
+@media only screen and (max-width: 510px) {
+  .parrafo-1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  .parrafo-1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 306px) {
+  .parrafo-1 {
+    font-size: 23px;
+  }
+}
+/*imagen*/
 .flex-conteiner {
   display: flex;
 }
 
 .flex-item {
   width: 100%;
-  height: 700px;
+  height: 620px;
   background-size: cover;
   background-image: url(../multimedia/imagen-1.jpg);
   align-items: center;
@@ -100,9 +118,10 @@ header .bloque-nav {
 }
 
 /* Fin bloque 2 */
+/*BLOQUE 2 DE INDEX*/
 .corte1, .corte1-item {
   background-color: #7d0121;
-  padding: 3px;
+  padding: 5px;
   font-family: "Montserrat", sans-serif;
   color: blanchedalmond;
   width: 100%;
@@ -111,52 +130,16 @@ header .bloque-nav {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-size: 60px;
+  font-size: 55px;
 }
 
-/*inicio bloque3*/
-.parrafo-2, .parrafo-3 {
-  font-family: "Montserrat", sans-serif;
-  color: blanchedalmond;
+/*MEDIA QUERY*/
+@media only screen and (max-width: 660px) {
+  .corte1-item {
+    font-size: 40px;
+  }
 }
-
-.parrafo-3, .parrafo-2 {
-  flex-wrap: wrap;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-}
-
-.parrafo-2 {
-  justify-content: left;
-}
-
-.parrafo-3 {
-  justify-content: center;
-}
-
-.bloque-4-container, .bloque-5-container {
-  display: flex;
-}
-
-.bloque-5-item, .bloque-4-item {
-  width: 100%;
-  height: 700px;
-  background-size: cover;
-  align-items: center;
-  margin-bottom: 0px;
-  display: flex;
-}
-
-.bloque-4-item {
-  background-image: url(../multimedia/imagen-2.jpg);
-}
-
-.bloque-5-item {
-  background-image: url(../multimedia/imagen-3.jpg);
-}
-
-/*fin bloque 3*/
+/*FIN BLOQUE 2 DE INDEX*/
 /* inicio del footer*/
 footer {
   font-size: 15px;
@@ -180,7 +163,7 @@ footer {
   display: flex;
   margin: auto;
   justify-content: space-between;
-  border: 40px solid #7d0121;
+  border: 30px solid #7d0121;
 }
 
 .column-1, .column-2, .column-3 {
@@ -251,21 +234,8 @@ li {
 }
 
 /* Fin bloque 1 de carta*/
-/* mediaquery mobile */
-@media only screen and (max-width: 800px) {
-  .conteiner1 {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 900px 900px 900px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .container-fluid {
-    background-color: #7d0121;
-  }
-}
 /*sale.html*/
-/* Inicio de body-sale */
+/* Inicio de bloque 1-sale */
 .h1-sale {
   font-family: "Montserrat", sans-serif;
   color: #7d0121;
@@ -278,48 +248,21 @@ li {
   font-size: 25px;
 }
 
-/* Fin de body-sale */
-/* Inicio footer-sale */
-.footer-container-sale {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: #7d0121;
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .carousel-slide {
+    width: 100% !important;
+    padding: 0px;
+  }
 }
-
-.footer-sale {
-  background-color: #7d0121;
-  color: blanchedalmond;
-  height: 120px;
-  width: 100%;
-  text-align: center;
+@media only screen and (max-width: 400px) {
+  .carousel-slide {
+    width: 100% !important;
+    padding: 0px;
+  }
 }
-
-.p-footer-sale-2 {
-  border: 2px solid white;
-  font-size: 20px;
-  align-items: center;
-}
-
-/* Fin footer-sale */
-/* Fin de sale.html */
+/* Fin de bloque 1-sale */
 /*nosotros.html*/
 /* Inicio bloque 1-nosotros */
-.boton, .boton:hover, .header {
-  width: 100%;
-}
-
-.header {
-  float: left;
-}
-
-.boton, .boton:hover {
-  background-color: beige;
-  color: #7d0121;
-  float: right;
-}
-
 .contenedor-parrafo {
   margin: auto !important;
 }
@@ -337,15 +280,13 @@ li {
   border-bottom: 1px solid #7d0121;
 }
 
-/* Fin bloque1-nosotros */
-/* Inicio footer-nosotros */
-.footer-nosotros {
-  background-color: #7d0121;
-  color: blanchedalmond;
-  padding: 100px;
+/*media query*/
+@media only screen and (max-width: 991px) {
+  .parrafo-1-nosotros {
+    border-bottom: 1px solid #7d0121;
+  }
 }
-
-/* Fin footer-nosotros */
+/* Fin bloque1-nosotros */
 /*trabajaconnosotros.html*/
 /* Inicio tcn */
 .transition-rrhh::before {

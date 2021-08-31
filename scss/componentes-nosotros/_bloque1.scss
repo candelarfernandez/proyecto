@@ -1,21 +1,5 @@
 /* Inicio bloque 1-nosotros */
 
-
-%width {
-    width: 100%;
-}
-.header {
-    float: left;
-   @extend %width;
-
-}
-
-.boton, .boton:hover {
-   background-color:beige;
-   color: #7d0121;
-   @extend %width;
-   float: right;  
-}
 .contenedor-parrafo {
     margin: auto !important;
 }
@@ -25,11 +9,7 @@
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
     margin: auto !important;
-    
-    
-    
 }
-
 
 .h1-nosotros {
     color: #7d0121;
@@ -38,9 +18,11 @@
     border-bottom: 1px solid #7d0121;
 }
 
+/*media query*/
 
-
-
-
-
+@media only screen and (max-width: 991px) {
+    .parrafo-1-nosotros {
+        border-bottom: 1px solid #7d0121;
+    }
+}
 /* Fin bloque1-nosotros */
