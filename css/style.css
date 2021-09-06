@@ -34,6 +34,11 @@ header .bloque-nav {
   font-size: 25px !important;
 }
 
+.nav-item {
+  background-color: #7d0121 !important;
+  z-index: 1;
+}
+
 /** transiciones menu**/
 .inicio:hover::after, .carta:hover::after {
   width: 4.5%;
